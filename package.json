@@ -1,14 +1,22 @@
 {
   "name": "wool-press",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "this is a press",
   "main": "index.js",
   "bin": {
-    "press": "./bin/press.js"
+    "test": "./bin/press.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "wool",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "semver": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
 }
